@@ -17,12 +17,12 @@ DSDropDownController is available through [CocoaPods](http://cocoapods.org). To 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'DSDropDownController'
+pod 'DSDropDownController', git:"https://github.com/vijayladvazetrixweb/DSDropDownController.git"
 ```
 
 ## Author
 
-vijayladvazetrixweb, vijay.zetrixweb@gmail.com
+vijayladvazetrixweb
 
 ## License
 
