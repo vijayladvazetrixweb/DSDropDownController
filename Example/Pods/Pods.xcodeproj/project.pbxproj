@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		07903EDC3F8E314EB7B9147B67FF344B /* DSDropDownController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D0FA2443AF137FA64D65EB0936D5E /* DSDropDownController-dummy.m */; };
 		105573081B4A4C47B01E4089ECE7D2EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		182B6EC1202C64B600BDA457 /* DropDownDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EB2202C64B500BDA457 /* DropDownDataProvider.swift */; };
-		182B6EC2202C64B600BDA457 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EB3202C64B500BDA457 /* DismissAnimator.swift */; };
-		182B6EC3202C64B600BDA457 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EB4202C64B500BDA457 /* DropDownCell.swift */; };
-		182B6EC4202C64B600BDA457 /* DropDownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EB5202C64B500BDA457 /* DropDownManager.swift */; };
-		182B6EC5202C64B600BDA457 /* DSDropDownController.h in Headers */ = {isa = PBXBuildFile; fileRef = 182B6EB6202C64B500BDA457 /* DSDropDownController.h */; };
-		182B6EC6202C64B600BDA457 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EB8202C64B500BDA457 /* Extensions.swift */; };
-		182B6EC7202C64B600BDA457 /* ButtonWithAddedTouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EBA202C64B600BDA457 /* ButtonWithAddedTouchArea.swift */; };
-		182B6EC8202C64B600BDA457 /* DropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EBB202C64B600BDA457 /* DropDownViewController.swift */; };
-		182B6EC9202C64B600BDA457 /* DropDownData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EBD202C64B600BDA457 /* DropDownData.swift */; };
-		182B6ECA202C64B600BDA457 /* DropDownDataStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EBE202C64B600BDA457 /* DropDownDataStyle.swift */; };
-		182B6ECB202C64B600BDA457 /* DropDownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EC0202C64B600BDA457 /* DropDownHeader.swift */; };
+		182B6EDB202C675000BDA457 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6ECC202C674E00BDA457 /* Extensions.swift */; };
+		182B6EDC202C675000BDA457 /* DropDownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6ECD202C674E00BDA457 /* DropDownManager.swift */; };
+		182B6EDD202C675000BDA457 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6ECE202C674F00BDA457 /* DropDownCell.swift */; };
+		182B6EDE202C675000BDA457 /* DropDownDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6ED1202C674F00BDA457 /* DropDownDataProvider.swift */; };
+		182B6EDF202C675000BDA457 /* ButtonWithAddedTouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6ED2202C674F00BDA457 /* ButtonWithAddedTouchArea.swift */; };
+		182B6EE0202C675000BDA457 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6ED3202C674F00BDA457 /* DismissAnimator.swift */; };
+		182B6EE1202C675000BDA457 /* DropDownData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6ED4202C674F00BDA457 /* DropDownData.swift */; };
+		182B6EE2202C675000BDA457 /* DropDownDataStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6ED5202C674F00BDA457 /* DropDownDataStyle.swift */; };
+		182B6EE3202C675000BDA457 /* DSDropDownController.h in Headers */ = {isa = PBXBuildFile; fileRef = 182B6ED7202C674F00BDA457 /* DSDropDownController.h */; };
+		182B6EE4202C675000BDA457 /* DropDownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6ED9202C675000BDA457 /* DropDownHeader.swift */; };
+		182B6EE5202C675000BDA457 /* DropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B6EDA202C675000BDA457 /* DropDownViewController.swift */; };
 		5C23A6B4EC28F637DD2DB63CF62FBE16 /* Pods-DSDropDownController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D0D1E996B61B5D08F6C92BF82AA3A0 /* Pods-DSDropDownController_Tests-dummy.m */; };
 		6A8CABD14CF920506702C514AD73BB0C /* Pods-DSDropDownController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12123CAFB61AC1FEB9C549B9AF932661 /* Pods-DSDropDownController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BCF68B958B8733627EE83A753247536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -45,21 +45,20 @@
 		0D08BA8010903B9A660D2CB546A324EF /* Pods-DSDropDownController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSDropDownController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		12123CAFB61AC1FEB9C549B9AF932661 /* Pods-DSDropDownController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSDropDownController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		125D0FA2443AF137FA64D65EB0936D5E /* DSDropDownController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSDropDownController-dummy.m"; sourceTree = "<group>"; };
-		182B6EB2202C64B500BDA457 /* DropDownDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownDataProvider.swift; sourceTree = "<group>"; };
-		182B6EB3202C64B500BDA457 /* DismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
-		182B6EB4202C64B500BDA457 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
-		182B6EB5202C64B500BDA457 /* DropDownManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownManager.swift; sourceTree = "<group>"; };
-		182B6EB6202C64B500BDA457 /* DSDropDownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDropDownController.h; sourceTree = "<group>"; };
-		182B6EB7202C64B500BDA457 /* DropDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownViewController.xib; sourceTree = "<group>"; };
-		182B6EB8202C64B500BDA457 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		182B6EB9202C64B500BDA457 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		182B6EBA202C64B600BDA457 /* ButtonWithAddedTouchArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithAddedTouchArea.swift; sourceTree = "<group>"; };
-		182B6EBB202C64B600BDA457 /* DropDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownViewController.swift; sourceTree = "<group>"; };
-		182B6EBC202C64B600BDA457 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
-		182B6EBD202C64B600BDA457 /* DropDownData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownData.swift; sourceTree = "<group>"; };
-		182B6EBE202C64B600BDA457 /* DropDownDataStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownDataStyle.swift; sourceTree = "<group>"; };
-		182B6EBF202C64B600BDA457 /* DropDownHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownHeader.xib; sourceTree = "<group>"; };
-		182B6EC0202C64B600BDA457 /* DropDownHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownHeader.swift; sourceTree = "<group>"; };
+		182B6ECC202C674E00BDA457 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = DSDropDownController/Classes/Extensions.swift; sourceTree = "<group>"; };
+		182B6ECD202C674E00BDA457 /* DropDownManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownManager.swift; path = DSDropDownController/Classes/DropDownManager.swift; sourceTree = "<group>"; };
+		182B6ECE202C674F00BDA457 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DSDropDownController/Classes/DropDownCell.swift; sourceTree = "<group>"; };
+		182B6ECF202C674F00BDA457 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DSDropDownController/Classes/DropDownCell.xib; sourceTree = "<group>"; };
+		182B6ED0202C674F00BDA457 /* DropDownHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DropDownHeader.xib; path = DSDropDownController/Classes/DropDownHeader.xib; sourceTree = "<group>"; };
+		182B6ED1202C674F00BDA457 /* DropDownDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownDataProvider.swift; path = DSDropDownController/Classes/DropDownDataProvider.swift; sourceTree = "<group>"; };
+		182B6ED2202C674F00BDA457 /* ButtonWithAddedTouchArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonWithAddedTouchArea.swift; path = DSDropDownController/Classes/ButtonWithAddedTouchArea.swift; sourceTree = "<group>"; };
+		182B6ED3202C674F00BDA457 /* DismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DismissAnimator.swift; path = DSDropDownController/Classes/DismissAnimator.swift; sourceTree = "<group>"; };
+		182B6ED4202C674F00BDA457 /* DropDownData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownData.swift; path = DSDropDownController/Classes/DropDownData.swift; sourceTree = "<group>"; };
+		182B6ED5202C674F00BDA457 /* DropDownDataStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownDataStyle.swift; path = DSDropDownController/Classes/DropDownDataStyle.swift; sourceTree = "<group>"; };
+		182B6ED6202C674F00BDA457 /* DropDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DropDownViewController.xib; path = DSDropDownController/Classes/DropDownViewController.xib; sourceTree = "<group>"; };
+		182B6ED7202C674F00BDA457 /* DSDropDownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSDropDownController.h; path = DSDropDownController/Classes/DSDropDownController.h; sourceTree = "<group>"; };
+		182B6ED9202C675000BDA457 /* DropDownHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownHeader.swift; path = DSDropDownController/Classes/DropDownHeader.swift; sourceTree = "<group>"; };
+		182B6EDA202C675000BDA457 /* DropDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownViewController.swift; path = DSDropDownController/Classes/DropDownViewController.swift; sourceTree = "<group>"; };
 		1D15991DA538F2D3128F7D52AE526674 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DSDropDownController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1EF72B6E744BD4067316DF755E601E80 /* DSDropDownController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSDropDownController-prefix.pch"; sourceTree = "<group>"; };
 		29652F1E247600125F5619BD986A32B9 /* Pods-DSDropDownController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSDropDownController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -170,21 +169,20 @@
 			isa = PBXGroup;
 			children = (
 				1D15991DA538F2D3128F7D52AE526674 /* ReplaceMe.swift */,
-				182B6EBA202C64B600BDA457 /* ButtonWithAddedTouchArea.swift */,
-				182B6EB3202C64B500BDA457 /* DismissAnimator.swift */,
-				182B6EB4202C64B500BDA457 /* DropDownCell.swift */,
-				182B6EBC202C64B600BDA457 /* DropDownCell.xib */,
-				182B6EBD202C64B600BDA457 /* DropDownData.swift */,
-				182B6EB2202C64B500BDA457 /* DropDownDataProvider.swift */,
-				182B6EBE202C64B600BDA457 /* DropDownDataStyle.swift */,
-				182B6EC0202C64B600BDA457 /* DropDownHeader.swift */,
-				182B6EBF202C64B600BDA457 /* DropDownHeader.xib */,
-				182B6EB5202C64B500BDA457 /* DropDownManager.swift */,
-				182B6EBB202C64B600BDA457 /* DropDownViewController.swift */,
-				182B6EB7202C64B500BDA457 /* DropDownViewController.xib */,
-				182B6EB6202C64B500BDA457 /* DSDropDownController.h */,
-				182B6EB8202C64B500BDA457 /* Extensions.swift */,
-				182B6EB9202C64B500BDA457 /* Info.plist */,
+				182B6ED2202C674F00BDA457 /* ButtonWithAddedTouchArea.swift */,
+				182B6ED3202C674F00BDA457 /* DismissAnimator.swift */,
+				182B6ECE202C674F00BDA457 /* DropDownCell.swift */,
+				182B6ECF202C674F00BDA457 /* DropDownCell.xib */,
+				182B6ED4202C674F00BDA457 /* DropDownData.swift */,
+				182B6ED1202C674F00BDA457 /* DropDownDataProvider.swift */,
+				182B6ED5202C674F00BDA457 /* DropDownDataStyle.swift */,
+				182B6ED9202C675000BDA457 /* DropDownHeader.swift */,
+				182B6ED0202C674F00BDA457 /* DropDownHeader.xib */,
+				182B6ECD202C674E00BDA457 /* DropDownManager.swift */,
+				182B6EDA202C675000BDA457 /* DropDownViewController.swift */,
+				182B6ED6202C674F00BDA457 /* DropDownViewController.xib */,
+				182B6ED7202C674F00BDA457 /* DSDropDownController.h */,
+				182B6ECC202C674E00BDA457 /* Extensions.swift */,
 				EEB1EF029CFA758919DBEE5009442D12 /* Support Files */,
 			);
 			name = DSDropDownController;
@@ -270,7 +268,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182B6EC5202C64B600BDA457 /* DSDropDownController.h in Headers */,
+				182B6EE3202C675000BDA457 /* DSDropDownController.h in Headers */,
 				E47D804D33658A1303AB5BB7B8007E76 /* DSDropDownController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,18 +369,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182B6EC3202C64B600BDA457 /* DropDownCell.swift in Sources */,
-				182B6ECB202C64B600BDA457 /* DropDownHeader.swift in Sources */,
+				182B6EDD202C675000BDA457 /* DropDownCell.swift in Sources */,
+				182B6EDC202C675000BDA457 /* DropDownManager.swift in Sources */,
 				07903EDC3F8E314EB7B9147B67FF344B /* DSDropDownController-dummy.m in Sources */,
-				182B6EC4202C64B600BDA457 /* DropDownManager.swift in Sources */,
+				182B6EE5202C675000BDA457 /* DropDownViewController.swift in Sources */,
+				182B6EE4202C675000BDA457 /* DropDownHeader.swift in Sources */,
+				182B6EDB202C675000BDA457 /* Extensions.swift in Sources */,
 				AE6AA47E9BC73249D59888C353781434 /* ReplaceMe.swift in Sources */,
-				182B6ECA202C64B600BDA457 /* DropDownDataStyle.swift in Sources */,
-				182B6EC1202C64B600BDA457 /* DropDownDataProvider.swift in Sources */,
-				182B6EC2202C64B600BDA457 /* DismissAnimator.swift in Sources */,
-				182B6EC8202C64B600BDA457 /* DropDownViewController.swift in Sources */,
-				182B6EC6202C64B600BDA457 /* Extensions.swift in Sources */,
-				182B6EC9202C64B600BDA457 /* DropDownData.swift in Sources */,
-				182B6EC7202C64B600BDA457 /* ButtonWithAddedTouchArea.swift in Sources */,
+				182B6EDE202C675000BDA457 /* DropDownDataProvider.swift in Sources */,
+				182B6EDF202C675000BDA457 /* ButtonWithAddedTouchArea.swift in Sources */,
+				182B6EE1202C675000BDA457 /* DropDownData.swift in Sources */,
+				182B6EE2202C675000BDA457 /* DropDownDataStyle.swift in Sources */,
+				182B6EE0202C675000BDA457 /* DismissAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
