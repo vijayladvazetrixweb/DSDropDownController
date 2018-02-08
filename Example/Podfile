@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DSDropDownController_Example' do
+  pod 'DSDropDownController', :path => '../'
+
+  target 'DSDropDownController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
