@@ -1,0 +1,16 @@
+PODS:
+  - DSDropDownController (0.1.0)
+
+DEPENDENCIES:
+  - DSDropDownController (from `../`)
+
+EXTERNAL SOURCES:
+  DSDropDownController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DSDropDownController: a23c00c366606a9e123c18b84929efe46c180440
+
+PODFILE CHECKSUM: 47a6b86454301a64a3f96cd1e1ec73b5138d615d
+
+COCOAPODS: 1.3.1
